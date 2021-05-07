@@ -1,0 +1,30 @@
+{
+    "name": "yaangvu/php-eureka",
+    "description": "A PHP client for Spring Cloud Eureka discovery server.",
+    "keywords": [
+        "php",
+        "eureka",
+        "spring cloud",
+        "discovery server"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^8.0",
+        "guzzlehttp/guzzle": "^7"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7|^8"
+    },
+    "authors": [
+        {
+            "name": "Yaang Vu",
+            "email": "yaangvu@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "Eureka\\": "src/"
+        }
+    }
+}
